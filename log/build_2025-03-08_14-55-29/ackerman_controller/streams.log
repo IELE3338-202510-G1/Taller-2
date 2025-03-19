@@ -1,0 +1,24 @@
+[2.715s] Invoking command in '/home/rob/ros2_ws_2/src/ackerman_controller': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackerman_controller build --build-base /home/rob/ros2_ws_2/build/ackerman_controller/build install --record /home/rob/ros2_ws_2/build/ackerman_controller/install.log --single-version-externally-managed install_data
+[3.750s] running egg_info
+[3.753s] writing ../../build/ackerman_controller/ackerman_controller.egg-info/PKG-INFO
+[3.754s] writing dependency_links to ../../build/ackerman_controller/ackerman_controller.egg-info/dependency_links.txt
+[3.755s] writing entry points to ../../build/ackerman_controller/ackerman_controller.egg-info/entry_points.txt
+[3.756s] writing requirements to ../../build/ackerman_controller/ackerman_controller.egg-info/requires.txt
+[3.756s] writing top-level names to ../../build/ackerman_controller/ackerman_controller.egg-info/top_level.txt
+[3.764s] reading manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+[3.768s] writing manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+[3.769s] running build
+[3.769s] running build_py
+[3.770s] copying ackerman_controller/ackerman_teleop.py -> /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller
+[3.771s] running install
+[3.773s] running install_lib
+[3.777s] copying /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller/ackerman_teleop.py -> /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller
+[3.780s] byte-compiling /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller/ackerman_teleop.py to ackerman_teleop.cpython-310.pyc
+[3.783s] running install_data
+[3.784s] running install_egg_info
+[3.792s] removing '/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.794s] Copying ../../build/ackerman_controller/ackerman_controller.egg-info to /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller-0.0.0-py3.10.egg-info
+[3.800s] running install_scripts
+[3.886s] Installing ackerman_teleop script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[3.887s] writing list of installed files to '/home/rob/ros2_ws_2/build/ackerman_controller/install.log'
+[4.005s] Invoked command in '/home/rob/ros2_ws_2/src/ackerman_controller' returned '0': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackerman_controller build --build-base /home/rob/ros2_ws_2/build/ackerman_controller/build install --record /home/rob/ros2_ws_2/build/ackerman_controller/install.log --single-version-externally-managed install_data

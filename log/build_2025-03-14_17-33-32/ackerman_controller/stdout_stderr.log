@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ackerman_controller.egg-info/PKG-INFO
+writing dependency_links to ackerman_controller.egg-info/dependency_links.txt
+writing entry points to ackerman_controller.egg-info/entry_points.txt
+writing requirements to ackerman_controller.egg-info/requires.txt
+writing top-level names to ackerman_controller.egg-info/top_level.txt
+reading manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+writing manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman-controller.egg-link (link to .)
+Installing ackerman_teleop script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+Installing arduino_com script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+
+Installed /home/rob/ros2_ws_2/build/ackerman_controller
+running symlink_data

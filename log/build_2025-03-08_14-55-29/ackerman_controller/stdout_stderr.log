@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ackerman_controller/ackerman_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/ackerman_controller/ackerman_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/ackerman_controller/ackerman_controller.egg-info/entry_points.txt
+writing requirements to ../../build/ackerman_controller/ackerman_controller.egg-info/requires.txt
+writing top-level names to ../../build/ackerman_controller/ackerman_controller.egg-info/top_level.txt
+reading manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ackerman_controller/ackerman_teleop.py -> /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller
+running install
+running install_lib
+copying /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller/ackerman_teleop.py -> /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller
+byte-compiling /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller/ackerman_teleop.py to ackerman_teleop.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ackerman_controller/ackerman_controller.egg-info to /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ackerman_teleop script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+writing list of installed files to '/home/rob/ros2_ws_2/build/ackerman_controller/install.log'

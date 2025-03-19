@@ -1,0 +1,19 @@
+[2.910s] Invoking command in '/home/rob/ros2_ws_2/build/ackerman_controller': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob/ros2_ws_2/build/ackerman_controller/build --no-deps symlink_data
+[4.047s] running develop
+[4.695s] running egg_info
+[4.696s] writing ackerman_controller.egg-info/PKG-INFO
+[4.697s] writing dependency_links to ackerman_controller.egg-info/dependency_links.txt
+[4.698s] writing entry points to ackerman_controller.egg-info/entry_points.txt
+[4.699s] writing requirements to ackerman_controller.egg-info/requires.txt
+[4.700s] writing top-level names to ackerman_controller.egg-info/top_level.txt
+[4.707s] reading manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+[4.712s] writing manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+[4.718s] running build_ext
+[4.719s] Creating /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman-controller.egg-link (link to .)
+[4.724s] Installing ackerman_teleop script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[4.724s] Installing arduino_reader script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[4.725s] Installing arduino_writer script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[4.727s] 
+[4.727s] Installed /home/rob/ros2_ws_2/build/ackerman_controller
+[4.728s] running symlink_data
+[4.859s] Invoked command in '/home/rob/ros2_ws_2/build/ackerman_controller' returned '0': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob/ros2_ws_2/build/ackerman_controller/build --no-deps symlink_data

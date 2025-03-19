@@ -1,0 +1,33 @@
+[3.183s] Invoking command in '/home/rob/ros2_ws_2/src/ackerman_controller': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackerman_controller build --build-base /home/rob/ros2_ws_2/build/ackerman_controller/build install --record /home/rob/ros2_ws_2/build/ackerman_controller/install.log --single-version-externally-managed install_data
+[4.209s] running egg_info
+[4.212s] creating ../../build/ackerman_controller/ackerman_controller.egg-info
+[4.212s] writing ../../build/ackerman_controller/ackerman_controller.egg-info/PKG-INFO
+[4.213s] writing dependency_links to ../../build/ackerman_controller/ackerman_controller.egg-info/dependency_links.txt
+[4.214s] writing entry points to ../../build/ackerman_controller/ackerman_controller.egg-info/entry_points.txt
+[4.215s] writing requirements to ../../build/ackerman_controller/ackerman_controller.egg-info/requires.txt
+[4.215s] writing top-level names to ../../build/ackerman_controller/ackerman_controller.egg-info/top_level.txt
+[4.216s] writing manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+[4.223s] reading manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+[4.226s] writing manifest file '../../build/ackerman_controller/ackerman_controller.egg-info/SOURCES.txt'
+[4.227s] running build
+[4.227s] running build_py
+[4.228s] creating /home/rob/ros2_ws_2/build/ackerman_controller/build
+[4.229s] creating /home/rob/ros2_ws_2/build/ackerman_controller/build/lib
+[4.229s] creating /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller
+[4.230s] copying ackerman_controller/__init__.py -> /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller
+[4.230s] running install
+[4.231s] running install_lib
+[4.235s] creating /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller
+[4.235s] copying /home/rob/ros2_ws_2/build/ackerman_controller/build/lib/ackerman_controller/__init__.py -> /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller
+[4.238s] byte-compiling /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller/__init__.py to __init__.cpython-310.pyc
+[4.239s] running install_data
+[4.240s] creating /home/rob/ros2_ws_2/install/ackerman_controller/share/ament_index
+[4.241s] creating /home/rob/ros2_ws_2/install/ackerman_controller/share/ament_index/resource_index
+[4.241s] creating /home/rob/ros2_ws_2/install/ackerman_controller/share/ament_index/resource_index/packages
+[4.241s] copying resource/ackerman_controller -> /home/rob/ros2_ws_2/install/ackerman_controller/share/ament_index/resource_index/packages
+[4.242s] copying package.xml -> /home/rob/ros2_ws_2/install/ackerman_controller/share/ackerman_controller
+[4.242s] running install_egg_info
+[4.250s] Copying ../../build/ackerman_controller/ackerman_controller.egg-info to /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman_controller-0.0.0-py3.10.egg-info
+[4.256s] running install_scripts
+[4.342s] writing list of installed files to '/home/rob/ros2_ws_2/build/ackerman_controller/install.log'
+[4.459s] Invoked command in '/home/rob/ros2_ws_2/src/ackerman_controller' returned '0': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackerman_controller build --build-base /home/rob/ros2_ws_2/build/ackerman_controller/build install --record /home/rob/ros2_ws_2/build/ackerman_controller/install.log --single-version-externally-managed install_data

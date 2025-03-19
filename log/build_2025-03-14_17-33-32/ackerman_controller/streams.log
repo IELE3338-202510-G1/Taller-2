@@ -1,0 +1,18 @@
+[3.452s] Invoking command in '/home/rob/ros2_ws_2/build/ackerman_controller': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob/ros2_ws_2/build/ackerman_controller/build --no-deps symlink_data
+[4.619s] running develop
+[5.283s] running egg_info
+[5.284s] writing ackerman_controller.egg-info/PKG-INFO
+[5.285s] writing dependency_links to ackerman_controller.egg-info/dependency_links.txt
+[5.286s] writing entry points to ackerman_controller.egg-info/entry_points.txt
+[5.287s] writing requirements to ackerman_controller.egg-info/requires.txt
+[5.288s] writing top-level names to ackerman_controller.egg-info/top_level.txt
+[5.296s] reading manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+[5.301s] writing manifest file 'ackerman_controller.egg-info/SOURCES.txt'
+[5.308s] running build_ext
+[5.309s] Creating /home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages/ackerman-controller.egg-link (link to .)
+[5.314s] Installing ackerman_teleop script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[5.315s] Installing arduino_com script to /home/rob/ros2_ws_2/install/ackerman_controller/lib/ackerman_controller
+[5.316s] 
+[5.317s] Installed /home/rob/ros2_ws_2/build/ackerman_controller
+[5.317s] running symlink_data
+[5.449s] Invoked command in '/home/rob/ros2_ws_2/build/ackerman_controller' returned '0': PYTHONPATH=/home/rob/ros2_ws_2/build/ackerman_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob/ros2_ws_2/install/ackerman_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob/ros2_ws_2/build/ackerman_controller/build --no-deps symlink_data
