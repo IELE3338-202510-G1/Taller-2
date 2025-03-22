@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "ackerman_teleop = ackerman_controller.ackerman_teleop:main",
             "arduino_reader = ackerman_controller.arduino_reader:main",
-            "arduino_writer = ackerman_controller.arduino_writer:main"
+            "arduino_writer = ackerman_controller.arduino_writer:main",
+            "ackerman_odo = ackerman_controller.ackerman_odo:main"
         ],
     },
 )

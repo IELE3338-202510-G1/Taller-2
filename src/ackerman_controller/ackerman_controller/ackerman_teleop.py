@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-import sys, select, termios, tty
+import sys, select, termios, tty, math
 
 # Configuración del teclado
 settings = termios.tcgetattr(sys.stdin)
@@ -98,11 +98,48 @@ class ackerman_teleop(Node):
         self.last_key_pressed = key if key else None
 
     def publish_velocity(self):
-        """ Publica el mensaje de velocidad en el tópico. """
+        """Publica el mensaje de velocidad en el tópico, calculando velocidades independientes para cada llanta."""
+        # Velocidad deseada en rpm (self.x es 1 o -1, self.speed es la magnitud)
+        vD = self.x * self.speed
+
+        # Calcular el ángulo relativo de giro φ:
+        # Se define que φ = 0 corresponde a un ángulo de servo de 85°.
+        phi_deg = self.servo_angle - 85.0
+        phi_rad = math.radians(phi_deg)
+
+        # Parámetros geométricos del vehículo
+        WHEELBASE = 195/1000     # Distancia entre ejes (l), en metros
+        TRACK_WIDTH = 224/1000   # Ancho total de la vía, en metros
+        HALF_TRACK = TRACK_WIDTH / 2
+
+        # Si el ángulo de giro es casi cero, ambas ruedas tendrán la misma velocidad.
+        if abs(phi_rad) < 1e-3:
+            v_left = vD
+            v_right = vD
+        else:
+            # Calcular el radio de giro de la línea de referencia:
+            R = WHEELBASE / abs(math.tan(phi_rad))
+            # Radio de giro del eje delantero (centro de la vía):
+            R_center = math.sqrt(R**2 + WHEELBASE**2)
+            # Calcular velocidades escaladas según la distancia que recorrerá cada llanta:
+            v_inner = vD * (math.sqrt((R - HALF_TRACK)**2 + WHEELBASE**2) / R_center)
+            v_outer = vD * (math.sqrt((R + HALF_TRACK)**2 + WHEELBASE**2) / R_center)
+
+            # Asignar la velocidad a cada rueda según la dirección del giro:
+            if phi_rad > 0:
+                # φ positivo: giro a la derecha (servo > 85°), la rueda derecha es la interior.
+                v_right = v_inner
+                v_left = v_outer
+            else:
+                # φ negativo: giro a la izquierda (servo < 85°), la rueda izquierda es la interior.
+                v_left = v_inner
+                v_right = v_outer
+
+        # Construir y publicar el mensaje Twist
         twist = Twist()
-        twist.linear.x = self.x * self.speed  # Velocidad de la rueda izquierda
-        twist.linear.y = self.x * self.speed  # Velocidad de la rueda derecha
-        twist.angular.z = self.servo_angle      # Ángulo del servo
+        twist.linear.x = v_right   # Velocidad de la rueda izquierda (rpm)
+        twist.linear.y = v_left  # Velocidad de la rueda derecha (rpm)
+        twist.angular.z = self.servo_angle  # Se publica el ángulo del servo (en grados)
         self.cmd_vel_pub_.publish(twist)
 
 def main():

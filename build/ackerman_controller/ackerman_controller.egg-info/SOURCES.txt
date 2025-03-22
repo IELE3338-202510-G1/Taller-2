@@ -9,6 +9,7 @@ setup.py
 ../../build/ackerman_controller/ackerman_controller.egg-info/top_level.txt
 ../../build/ackerman_controller/ackerman_controller.egg-info/zip-safe
 ackerman_controller/__init__.py
+ackerman_controller/ackerman_odo.py
 ackerman_controller/ackerman_teleop.py
 ackerman_controller/arduino_reader.py
 ackerman_controller/arduino_writer.py

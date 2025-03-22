@@ -1,4 +1,5 @@
 [console_scripts]
+ackerman_odo = ackerman_controller.ackerman_odo:main
 ackerman_teleop = ackerman_controller.ackerman_teleop:main
 arduino_reader = ackerman_controller.arduino_reader:main
 arduino_writer = ackerman_controller.arduino_writer:main
